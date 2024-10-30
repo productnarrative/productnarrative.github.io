@@ -3,28 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Product Portfolio</title>
+    <title>Nimish Singhal - Product Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Product Manager | GenAI Specialist</p>
-        <nav>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="skills.html">Skills & Tools</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="header-container">
+            <h1 class="name">Nimish Singhal</h1>
+            <p class="role">Product Manager | GenAI Specialist</p>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="skills.html">Skills & Tools</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="welcome-section">
             <h2>Welcome to My Product Portfolio</h2>
-            <p>Discover my journey in product management, where I leverage GenAI to build innovative and data-driven solutions.</p>
+            <p>Discover my journey in product management, where I leverage GenAI to build innovative and data-driven solutions. My focus is on delivering impactful user experiences by combining data insights and cutting-edge AI technologies.</p>
+        </section>
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>AI-Powered Investment Commentary Tool</h3>
+                    <p>An innovative solution that uses Generative AI to help investment directors create insightful commentaries. Empowering finance with personalized AI-driven insights.</p>
+                    <a href="projects.html#investment-tool" class="learn-more">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Fraud Detection & Prevention System</h3>
+                    <p>Developed an AI-driven fraud detection system for financial services to identify and prevent fraudulent activities in real-time, ensuring secure transactions and customer trust.</p>
+                    <a href="projects.html#fraud-detection" class="learn-more">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Computer Security Threat Intelligence Platform</h3>
+                    <p>Built a threat intelligence platform that leverages AI to detect potential security threats, helping organizations stay ahead of cyber threats and secure their infrastructure.</p>
+                    <a href="projects.html#threat-intelligence" class="learn-more">Learn More</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <div class="footer-container">
+            <p>&copy; 2024 Nimish Singhal. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nimishsinghal04/" target="_blank">LinkedIn</a> |
+                <a href="https://x.com/twetnish" target="_blank">X/Twitter</a> |
+                <a href="https://productnarrative.substack.com/" target="_blank">Substack</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
